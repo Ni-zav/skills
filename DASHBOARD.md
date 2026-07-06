@@ -4,7 +4,7 @@ Generated from `skills/*/SKILL.md` by `npm run dashboard`.
 
 | Skill | Description | Path | OpenAI metadata |
 | --- | --- | --- | --- |
-| `blender-extension-builder` | Build, audit, package, and validate Blender 4.2+ extension add-ons. Use when creating or modifying blender_manifest.toml, converting legacy Blender add-ons to extensions, implementing bpy register/unregister lifecycle, packaging with blender --command extension build or blender -c extension build, validating extension ZIPs, testing add-on registration, or working with Blender operators, panels, preferences, handlers, timers, keymaps, permissions, wheels, and extension packaging structure. | `skills/blender-extension-builder` | yes |
+| `blender-extension-builder` | Build, audit, convert, package, publish, and validate Blender 4.2+ extension add-ons. Use when creating Blender extensions from scratch, converting legacy bl_info add-ons to blender_manifest.toml, designing extension folder/module structure, implementing bpy register/unregister lifecycle, packaging with blender --command extension build or blender -c extension build, validating extension ZIPs, testing add-on registration, publishing extension repositories, or working with Blender operators, panels, preferences, handlers, timers, keymaps, permissions, wheels, and extension packaging structure. | `skills/blender-extension-builder` | yes |
 
 ## Install
 
