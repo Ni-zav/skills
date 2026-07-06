@@ -1,0 +1,19 @@
+{
+  "name": "nigel-agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent-neutral skills repository for Codex, Claude Code, and compatible agents.",
+  "type": "module",
+  "bin": {
+    "nigel-skills": "./scripts/skills.mjs"
+  },
+  "scripts": {
+    "dashboard": "node scripts/skills.mjs dashboard",
+    "validate": "node scripts/skills.mjs validate",
+    "install:codex": "node scripts/skills.mjs install --target codex",
+    "install:claude": "node scripts/skills.mjs install --target claude"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

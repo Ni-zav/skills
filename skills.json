@@ -1,0 +1,10 @@
+[
+  {
+    "name": "blender-extension-builder",
+    "description": "Build, audit, package, and validate Blender 4.2+ extension add-ons. Use when creating or modifying blender_manifest.toml, converting legacy Blender add-ons to extensions, implementing bpy register/unregister lifecycle, packaging with blender --command extension build or blender -c extension build, validating extension ZIPs, testing add-on registration, or working with Blender operators, panels, preferences, handlers, timers, keymaps, permissions, wheels, and extension packaging structure.",
+    "path": "skills/blender-extension-builder",
+    "agents": {
+      "openai": true
+    }
+  }
+]

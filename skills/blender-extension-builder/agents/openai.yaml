@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Extension Builder"
+  short_description: "Build Blender extension add-ons"
+  default_prompt: "Use $blender-extension-builder to create and verify a Blender extension add-on."
