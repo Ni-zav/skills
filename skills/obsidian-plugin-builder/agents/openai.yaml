@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Plugin Builder"
+  short_description: "Create and install Obsidian plugins"
+  default_prompt: "Use $obsidian-plugin-builder to create a simple Obsidian plugin and install it into my vault."
