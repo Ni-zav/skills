@@ -5,6 +5,7 @@
     "short_description": "Optimize Java/View/Canvas Android interfaces",
     "path": "skills/android-custom-ui-performance",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -15,6 +16,7 @@
     "short_description": "Build reliable CAD/BIM and 3D interchange",
     "path": "skills/archviz-interchange-engineer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -25,6 +27,7 @@
     "short_description": "Build Blender extension add-ons",
     "path": "skills/blender-extension-builder",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -35,6 +38,7 @@
     "short_description": "Optimize huge Blender scenes and add-on workloads",
     "path": "skills/blender-large-scene-performance",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -45,6 +49,7 @@
     "short_description": "Build and debug production Cloudflare edge apps",
     "path": "skills/cloudflare-edge-operator",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -55,6 +60,7 @@
     "short_description": "Build reproducible ComfyUI workflows and nodes",
     "path": "skills/comfyui-workflow-engineer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -65,6 +71,7 @@
     "short_description": "Build robust capture-to-PDF document scanning",
     "path": "skills/computer-vision-document-pipeline",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -75,6 +82,7 @@
     "short_description": "Locate root causes across system boundaries",
     "path": "skills/failure-localization",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -85,6 +93,7 @@
     "short_description": "Build qualification-ready Huawei watch faces",
     "path": "skills/huawei-watch-face-engineer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -95,6 +104,7 @@
     "short_description": "Harden APIs, webhooks, queues, and retries",
     "path": "skills/integration-contract-hardening",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -105,6 +115,7 @@
     "short_description": "Execute migrations with compatibility and rollback",
     "path": "skills/migration-executor",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -115,6 +126,7 @@
     "short_description": "Create and install Obsidian plugins",
     "path": "skills/obsidian-plugin-builder",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -125,6 +137,7 @@
     "short_description": "Design durable Obsidian vault information systems",
     "path": "skills/obsidian-vault-architect",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -135,6 +148,7 @@
     "short_description": "Evaluate open-source adoption and dependency risk",
     "path": "skills/oss-adoption-evaluator",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -145,6 +159,7 @@
     "short_description": "Design trustworthy performance measurements",
     "path": "skills/performance-benchmark-engineer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -155,6 +170,7 @@
     "short_description": "Build clean chat-to-vault capture pipelines",
     "path": "skills/personal-knowledge-ingestion",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -165,6 +181,7 @@
     "short_description": "Debug Unreal Pixel Streaming end to end",
     "path": "skills/pixel-streaming-operator",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -175,6 +192,7 @@
     "short_description": "Turn release claims into evidence-backed gates",
     "path": "skills/release-readiness-operator",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -185,6 +203,7 @@
     "short_description": "Turn technical research into verified delivery",
     "path": "skills/research-to-implementation",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -195,6 +214,7 @@
     "short_description": "Infer product architecture from authorized evidence",
     "path": "skills/reverse-engineering-product-teardown",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -205,6 +225,7 @@
     "short_description": "Technical SEO for dynamic JavaScript sites",
     "path": "skills/seo-dynamic-web",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -215,6 +236,7 @@
     "short_description": "Curate low-overlap high-value Agent Skills",
     "path": "skills/skill-library-curator",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -225,6 +247,7 @@
     "short_description": "Review implementation against visual references",
     "path": "skills/visual-reference-reviewer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }
@@ -235,6 +258,7 @@
     "short_description": "Build responsive Three.js spatial products",
     "path": "skills/webgl-spatial-ui-engineer",
     "eval_prompts": 3,
+    "provenance": true,
     "agents": {
       "openai": true
     }

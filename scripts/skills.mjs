@@ -60,6 +60,7 @@ function discoverSkills() {
       const relDir = path.relative(repoRoot, dir).replaceAll(path.sep, "/");
       const openaiPath = path.join(dir, "agents", "openai.yaml");
       const evalPath = path.join(dir, "evals", "evals.json");
+      const provenancePath = path.join(dir, "references", "provenance.md");
       const openaiText = fs.existsSync(openaiPath) ? fs.readFileSync(openaiPath, "utf8") : "";
       let evals = null;
       if (fs.existsSync(evalPath)) {
@@ -80,6 +81,8 @@ function discoverSkills() {
         openai: parseOpenAI(openaiText),
         evalPath,
         evals,
+        provenancePath,
+        hasProvenance: fs.existsSync(provenancePath),
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -119,6 +122,7 @@ Read \`README.md\` for the curated catalog and \`.agents/skill-authoring.md\` fo
     short_description: skill.openai.shortDescription,
     path: skill.path,
     eval_prompts: Array.isArray(skill.evals?.prompts) ? skill.evals.prompts.length : 0,
+    provenance: skill.hasProvenance,
     agents: { openai: Boolean(skill.openaiText) },
   }));
 
@@ -175,6 +179,10 @@ function validate() {
       }
     }
 
+    if (!skill.hasProvenance) {
+      errors.push(`${skill.path}: missing references/provenance.md`);
+    }
+
     if (!skill.evals) {
       errors.push(`${skill.path}: missing evals/evals.json`);
     } else if (skill.evals.__parseError) {
@@ -192,7 +200,7 @@ function validate() {
     process.exitCode = 1;
     return;
   }
-  console.log(`OK: ${skills.length} skill(s) validated with eval coverage.`);
+  console.log(`OK: ${skills.length} skill(s) validated with eval and provenance coverage.`);
 }
 
 function valueAfter(args, flag) {
