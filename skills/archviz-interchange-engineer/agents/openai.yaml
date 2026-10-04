@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archviz Interchange Engineer"
+  short_description: "Build reliable CAD/BIM and 3D interchange"
+  default_prompt: "Use $archviz-interchange-engineer to inspect this import/export pipeline, define the fidelity target, choose the right SDK or parser, and add round-trip verification."

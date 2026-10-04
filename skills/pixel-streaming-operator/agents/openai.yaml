@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pixel Streaming Operator"
+  short_description: "Debug Unreal Pixel Streaming end to end"
+  default_prompt: "Use $pixel-streaming-operator to trace this Unreal Pixel Streaming failure layer by layer and produce a verified working network configuration."

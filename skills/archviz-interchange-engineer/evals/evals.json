@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "My DXF importer only gives layer 0 and several faces disappear. Diagnose whether this is the file, parser, tessellation, or object-building logic and add test fixtures.",
+    "Research the viable ways to support SKP, IFC, DWG/DXF, and Revit-derived data in our Blender product. I care about licensing and actual round-trip fidelity.",
+    "The SketchUp model imports visually but all components become unique meshes and units sometimes shift. Fix the architecture, not just the sample file."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Pixel Streaming loads through my Cloudflare domain but says wss not connected. It used to work on an older commit. Trace exactly where it breaks.",
+    "The stream works on Wi-Fi/LAN but not on mobile data. I already have a TURN server. Diagnose ICE and relay reachability instead of changing random frontend settings.",
+    "I want one Unreal instance behind a custom domain with one active player. Give me the minimum production topology and verify every connection boundary."
+  ]
+}

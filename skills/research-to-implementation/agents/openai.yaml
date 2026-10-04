@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research to Implementation"
+  short_description: "Turn technical research into verified delivery"
+  default_prompt: "Use $research-to-implementation to research this problem, choose the best supported approach, implement it, verify it, and document the durable findings."

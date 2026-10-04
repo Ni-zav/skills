@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloudflare Edge Operator"
+  short_description: "Build and debug production Cloudflare edge apps"
+  default_prompt: "Use $cloudflare-edge-operator to inspect this Cloudflare project, fix the deployment or architecture issue, and verify the real production path."

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "My Worker deploys and /healthz is 200, but Discord never receives deployment notifications. Debug the full path and prove what works.",
+    "This site is on Cloudflare Pages with Functions and R2. Should I keep Pages or migrate it? Inspect the project, use current guidance, and make the change if justified.",
+    "Set up a free scheduled Worker that reconciles deployment state, but keep secrets out of Git and add real verification."
+  ]
+}
