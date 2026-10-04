@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Vault Architect"
+  short_description: "Design durable Obsidian vault information systems"
+  default_prompt: "Use $obsidian-vault-architect to audit this vault structure, define the durable note/schema model, migrate a representative subset safely, and verify links, attachments, and automation compatibility."

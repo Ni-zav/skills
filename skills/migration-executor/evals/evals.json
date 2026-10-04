@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Move this Cloudflare Pages project to Workers Static Assets without breaking the current routes, bindings, or deployment workflow.",
+    "Upgrade this service to the new provider API version. I do not want a search-and-replace; audit behavioral and authentication changes and keep rollback possible.",
+    "We need to change this persisted schema while old app versions may still write the old shape. Design and execute a compatibility migration."
+  ]
+}

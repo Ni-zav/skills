@@ -1,0 +1,4 @@
+interface:
+  display_name: "OSS Adoption Evaluator"
+  short_description: "Evaluate open-source adoption and dependency risk"
+  default_prompt: "Use $oss-adoption-evaluator to assess these projects against our actual requirements, maintenance, security, licensing, integration cost, and exit risk, then verify the hardest capability with a PoC."

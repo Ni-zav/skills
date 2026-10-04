@@ -1,0 +1,4 @@
+interface:
+  display_name: "Failure Localization"
+  short_description: "Locate root causes across system boundaries"
+  default_prompt: "Use $failure-localization to trace this failure to the first incorrect boundary, prove the cause, apply the narrowest fix, and verify the original reproduction."

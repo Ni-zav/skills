@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "After capture my Android scanner detects the page, but flattening sometimes produces a black preview and Add Page can crash. Trace all coordinate and bitmap stages.",
+    "The four corners jitter badly on receipts and I want side handles too. Design smoothing that stays editable and does not overwrite manual corrections.",
+    "OCR boxes align before perspective correction but are wrong in the exported PDF. Fix the coordinate pipeline instead of adding offsets."
+  ]
+}

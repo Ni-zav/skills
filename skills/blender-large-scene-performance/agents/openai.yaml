@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Large Scene Performance"
+  short_description: "Optimize huge Blender scenes and add-on workloads"
+  default_prompt: "Use $blender-large-scene-performance to profile this representative Blender workload, identify whether object, geometry, evaluation, drawing, Python, or memory is dominant, then optimize and benchmark it."

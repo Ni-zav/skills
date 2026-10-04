@@ -30,10 +30,50 @@
     }
   },
   {
+    "name": "blender-large-scene-performance",
+    "description": "Diagnose and optimize Blender scenes or add-ons with very high object, instance, polygon, modifier, geometry-node, material, or asset counts. Use when viewport interaction, dependency-graph evaluation, file loading, render preparation, Python batch operations, memory use, or procedural scattering becomes slow; especially for architectural scenes, hundreds of thousands of repeated objects, asset packs, or add-ons that accidentally realize or duplicate geometry.",
+    "short_description": "Optimize huge Blender scenes and add-on workloads",
+    "path": "skills/blender-large-scene-performance",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "cloudflare-edge-operator",
     "description": "Build, migrate, deploy, and debug Cloudflare edge applications using Workers, Workers Static Assets, Pages/Pages Functions, Wrangler, R2, D1, KV, Queues, Workflows, service bindings, cron triggers, and observability. Use when working on wrangler configuration, Cloudflare deployments, environment bindings, Workers/Pages migration, webhook services, deployment status tools, R2-backed assets, D1 data, scheduled Workers, or production failures that differ from local behavior.",
     "short_description": "Build and debug production Cloudflare edge apps",
     "path": "skills/cloudflare-edge-operator",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "comfyui-workflow-engineer",
+    "description": "Build, repair, automate, version, and package reproducible ComfyUI workflows and custom nodes. Use when workflows have missing custom nodes, model/checkpoint iteration, image-edit/reference pipelines, API execution, custom Python nodes, metadata/reproducibility problems, VRAM constraints, or when a visual node graph needs to become a maintainable automated generation pipeline.",
+    "short_description": "Build reproducible ComfyUI workflows and nodes",
+    "path": "skills/comfyui-workflow-engineer",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "computer-vision-document-pipeline",
+    "description": "Build and debug mobile/document-scanning pipelines that detect page boundaries, stabilize editable corners, rectify perspective, enhance readability, run OCR, manage multi-page projects, and export reliable PDFs. Use when camera capture produces black/warped previews, edge detection is unstable, corner handles jitter, flattening crashes, OCR coordinates no longer align, or a document-scanner app needs a robust capture-to-export architecture.",
+    "short_description": "Build robust capture-to-PDF document scanning",
+    "path": "skills/computer-vision-document-pipeline",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "failure-localization",
+    "description": "Diagnose technical failures by locating the first boundary where observed behavior diverges from expected behavior, then prove the root cause before changing code. Use when builds, tests, integrations, deployments, UI flows, networking, data pipelines, or device behavior fail unexpectedly; when several components could be responsible; or when repeated speculative fixes have not converged.",
+    "short_description": "Locate root causes across system boundaries",
+    "path": "skills/failure-localization",
     "eval_prompts": 3,
     "agents": {
       "openai": true
@@ -50,10 +90,60 @@
     }
   },
   {
+    "name": "integration-contract-hardening",
+    "description": "Make external API, webhook, queue, callback, and event integrations reliable under retries, duplicates, delays, partial failure, reordered delivery, credential rotation, and provider-specific semantics. Use when integrating Discord, Telegram, GitHub, Cloudflare, payment/webhook providers, third-party APIs, background queues, or any boundary where a successful HTTP request does not guarantee exactly-once business behavior.",
+    "short_description": "Harden APIs, webhooks, queues, and retries",
+    "path": "skills/integration-contract-hardening",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "migration-executor",
+    "description": "Plan and execute technical migrations with explicit compatibility, rollout, data, and rollback boundaries. Use when moving between frameworks, APIs, hosting platforms, storage systems, package formats, schemas, authentication methods, build tools, or service architectures; especially when the old and new systems must coexist temporarily or a big-bang rewrite would be risky.",
+    "short_description": "Execute migrations with compatibility and rollback",
+    "path": "skills/migration-executor",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "obsidian-plugin-builder",
     "description": "Create, modify, package, or manually install Obsidian note-taking app plugins. Use when building local or publishable Obsidian plugins, working with manifest.json/main.js/styles.css, creating PluginSettingTab settings, handling editor-change or Markdown editor behavior, installing plugins into a vault's .obsidian/plugins folder, or choosing between a simple no-build plugin and the official TypeScript sample-plugin workflow.",
     "short_description": "Create and install Obsidian plugins",
     "path": "skills/obsidian-plugin-builder",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "obsidian-vault-architect",
+    "description": "Design and evolve a long-lived Obsidian vault's information architecture, note schemas, links, properties/frontmatter, attachments, templates, indexes, migrations, and automation boundaries. Use when consolidating multiple vaults, cleaning duplicated folder structures, designing a single personal knowledge base, changing note schemas safely, organizing research/projects/daily notes, or when plugins/bots need a stable vault model to write into.",
+    "short_description": "Design durable Obsidian vault information systems",
+    "path": "skills/obsidian-vault-architect",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "oss-adoption-evaluator",
+    "description": "Evaluate whether an open-source project, library, SDK, self-hosted service, or vendor-backed repository is suitable for production adoption. Use when deciding build-vs-adopt, comparing multiple libraries, replacing a paid service, embedding GPL or other licensed software, assessing maintenance/security risk, or deciding whether a project is mature enough to become a dependency or product foundation.",
+    "short_description": "Evaluate open-source adoption and dependency risk",
+    "path": "skills/oss-adoption-evaluator",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "performance-benchmark-engineer",
+    "description": "Design trustworthy performance investigations and benchmarks for code, rendering, builds, APIs, devices, data processing, or interactive applications. Use when something is \"slow\", a rewrite claims to be faster, regressions need quantification, CPU/GPU/memory/frame-time tradeoffs matter, or a benchmark result could be distorted by warmup, caching, unrealistic fixtures, variance, or measuring the wrong boundary.",
+    "short_description": "Design trustworthy performance measurements",
+    "path": "skills/performance-benchmark-engineer",
     "eval_prompts": 3,
     "agents": {
       "openai": true
@@ -80,6 +170,16 @@
     }
   },
   {
+    "name": "release-readiness-operator",
+    "description": "Decide whether a software product is actually ready to release by turning claims into explicit evidence gates across functionality, packaging, deployment, recovery, documentation, and user-facing installation. Use when a project is \"almost done\", has a list of remaining release gates, needs a version/tag/release, requires dogfooding or real-provider validation, or when unit tests pass but production readiness is still uncertain.",
+    "short_description": "Turn release claims into evidence-backed gates",
+    "path": "skills/release-readiness-operator",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "research-to-implementation",
     "description": "Turn ambiguous technical requests into evidence-backed implementation work. Use when a task starts with \"research/check/figure out what is possible\", compares libraries or architectures, asks whether an existing repo/product can support something, or needs research to end in code, tests, documentation, commits, or a concrete handoff instead of a report that stops at recommendations.",
     "short_description": "Turn technical research into verified delivery",
@@ -90,10 +190,30 @@
     }
   },
   {
+    "name": "reverse-engineering-product-teardown",
+    "description": "Analyze how an existing software product or technical system is likely built by combining observable behavior, public artifacts, file formats, network traces the user is authorized to inspect, documentation, binaries/source when lawfully available, and controlled experiments. Use when researching a competitor/tool architecture, recreating a capability, documenting a proprietary workflow for interoperability, or deciding which parts can be reproduced without guessing from UI appearance alone.",
+    "short_description": "Infer product architecture from authorized evidence",
+    "path": "skills/reverse-engineering-product-teardown",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "seo-dynamic-web",
     "description": "Engineer technical SEO for JavaScript-heavy and dynamically sourced websites, especially Next.js-style sites backed by Supabase/CMS data, localized architecture/portfolio pages, image-heavy project stories, and Cloudflare deployments. Use when pages are not indexed, dynamic content lacks metadata, localization creates duplicate URLs, sitemap/canonical/robots behavior is unclear, structured data is needed, or the browser shows content that crawlers may not receive in rendered/indexable HTML.",
     "short_description": "Technical SEO for dynamic JavaScript sites",
     "path": "skills/seo-dynamic-web",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "skill-library-curator",
+    "description": "Design, audit, de-duplicate, and evolve an Agent Skills library so skills trigger reliably without overlapping into a noisy prompt collection. Use when adding many skills, deciding whether a workflow deserves its own skill, diagnosing overlapping descriptions or missing triggers, reviewing third-party skills before installation, evaluating skill usefulness against a baseline model, or splitting/merging skills as the library grows.",
+    "short_description": "Curate low-overlap high-value Agent Skills",
+    "path": "skills/skill-library-curator",
     "eval_prompts": 3,
     "agents": {
       "openai": true

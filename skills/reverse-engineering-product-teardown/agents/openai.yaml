@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Teardown"
+  short_description: "Infer product architecture from authorized evidence"
+  default_prompt: "Use $reverse-engineering-product-teardown to map this capability from observable and authorized evidence, distinguish facts from hypotheses, test the key inference, and document an independent implementation path."

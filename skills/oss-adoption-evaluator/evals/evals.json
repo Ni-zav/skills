@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Should we build this ourselves or base it on this open-source repo? Check maintenance, license, missing features, architecture fit, and prove the hard part.",
+    "Can I redistribute this GPL tool inside a closed-source commercial product? Inspect the actual integration and license obligations instead of giving a generic GPL answer.",
+    "Compare three self-hosted deployment notification projects and tell me whether any are mature enough to depend on."
+  ]
+}

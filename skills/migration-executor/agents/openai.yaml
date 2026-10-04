@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Executor"
+  short_description: "Execute migrations with compatibility and rollback"
+  default_prompt: "Use $migration-executor to inventory this migration, create a safe compatibility path, migrate a representative slice, verify parity, and finish the rollout without a blind big-bang rewrite."

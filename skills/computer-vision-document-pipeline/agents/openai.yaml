@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Vision Pipeline"
+  short_description: "Build robust capture-to-PDF document scanning"
+  default_prompt: "Use $computer-vision-document-pipeline to trace this scanner from camera coordinates through detection, perspective correction, OCR, and export, then fix and verify the failing stage."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Readiness Operator"
+  short_description: "Turn release claims into evidence-backed gates"
+  default_prompt: "Use $release-readiness-operator to build the release gate matrix, close the verifiable gates, and only create a release when the required evidence is satisfied."

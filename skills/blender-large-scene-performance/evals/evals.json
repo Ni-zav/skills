@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "I need to display around 500k repeated cubes in Blender. Compare real objects, linked meshes, collection instances, and Geometry Nodes, and benchmark the viable approach.",
+    "This scatter add-on gets exponentially slower after importing a large architecture model. Find whether realization, modifiers, object count, or Python is responsible.",
+    "The viewport is slow even though polygon count is not crazy. Audit objects, depsgraph, materials, modifiers, and instances instead of just decimating meshes."
+  ]
+}
