@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Convert this old Blender bl_info add-on into a Blender 4.2+ extension, keep registration clean, build the ZIP, and validate the package.",
+    "This Blender extension installs but fails after reload because handlers and keymaps duplicate. Fix the lifecycle and prove register/unregister is clean.",
+    "Prepare this add-on for a third-party Blender extension repository with the right manifest, permissions, package layout, and validation."
+  ]
+}

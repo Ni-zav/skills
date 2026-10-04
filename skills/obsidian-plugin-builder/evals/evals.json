@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Build a tiny local Obsidian plugin that timestamps a checkbox only when its state changes, and install it into this vault without breaking my existing plugins.",
+    "Turn this rough Obsidian plugin into a publishable TypeScript project with settings, build output, and a clean release package.",
+    "My plugin edits the current Markdown line but jumps the editor scroll and sometimes recursively triggers itself. Fix the event/update behavior."
+  ]
+}
