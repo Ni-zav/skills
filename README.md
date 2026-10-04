@@ -102,6 +102,8 @@ See `.agents/skill-authoring.md` and use `skill-library-curator` for library-lev
 
 ## Originality and provenance
 
+Every skill has a required `references/provenance.md` describing primary sources, external inspirations, and the original synthesis contributed by this library. See `PROVENANCE.md` for the index.
+
 This repository uses public standards and engineering principles as research input, but the skill workflows and wording are authored for this library and its recurring use cases. Do not wholesale-copy third-party skills into this repository. When a public skill has a useful principle, extract the principle, verify it against primary sources where possible, adapt it to this catalog's boundaries, and evaluate whether it adds value over the base model.
 
 ## Compatibility
@@ -112,4 +114,4 @@ The canonical skill content should remain host-neutral. Host-specific UI or tool
 
 ## Research basis
 
-See `RESEARCH.md` for current standards, source provenance, and fast-moving domain references.
+See `RESEARCH.md` for current standards and fast-moving domain references, `PROVENANCE.md` for per-skill source lineage, and `DOGFOOD.md` for the usage/evaluation loop.

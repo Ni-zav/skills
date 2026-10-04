@@ -7,7 +7,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "archviz-interchange-engineer",
@@ -17,7 +18,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "blender-extension-builder",
@@ -27,7 +29,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "blender-large-scene-performance",
@@ -37,7 +40,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "cloudflare-edge-operator",
@@ -47,7 +51,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "comfyui-workflow-engineer",
@@ -57,7 +62,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "computer-vision-document-pipeline",
@@ -67,7 +73,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "failure-localization",
@@ -77,7 +84,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "huawei-watch-face-engineer",
@@ -87,7 +95,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "integration-contract-hardening",
@@ -97,7 +106,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "migration-executor",
@@ -107,7 +117,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "obsidian-plugin-builder",
@@ -117,7 +128,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "obsidian-vault-architect",
@@ -127,7 +139,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "oss-adoption-evaluator",
@@ -137,7 +150,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "performance-benchmark-engineer",
@@ -147,7 +161,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "personal-knowledge-ingestion",
@@ -157,7 +172,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "pixel-streaming-operator",
@@ -167,7 +183,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "release-readiness-operator",
@@ -177,7 +194,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "research-to-implementation",
@@ -187,7 +205,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "reverse-engineering-product-teardown",
@@ -197,7 +216,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "seo-dynamic-web",
@@ -207,7 +227,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "skill-library-curator",
@@ -217,7 +238,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "visual-reference-reviewer",
@@ -227,7 +249,8 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   },
   {
     "name": "webgl-spatial-ui-engineer",
@@ -237,6 +260,7 @@
     "eval_prompts": 3,
     "agents": {
       "openai": true
-    }
+    },
+    "provenance": true
   }
 ]
