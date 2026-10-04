@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "This worked three commits ago, but now the frontend loads and the actual stream never starts. Stop guessing and find the first boundary that changed.",
+    "The test fails only in CI. Compare the local and CI execution path, isolate the divergence, and prove the root cause before changing configuration.",
+    "I have already tried three fixes for this import bug and each just changes the symptom. Diagnose it systematically from input file to final objects."
+  ]
+}

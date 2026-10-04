@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Everything passes locally and the Worker is deployed, but I still have real Pages transitions, retry/DLQ, GitHub Actions, and one-click install left. Tell me what actually blocks release and close what you can.",
+    "We think this plugin is ready for v1.0. Audit build, install, upgrade, failure behavior, docs, and packaging before tagging it.",
+    "The team wants to ship today. Build a strict but practical release gate list and distinguish untested from passed."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "This scene handles 50 objects but collapses with 50,000. Build a benchmark that tells us whether CPU evaluation, draw calls, geometry, or memory is the real limit.",
+    "The new parser feels faster. Prove it on representative files and report throughput, latency, and memory instead of one lucky run.",
+    "Typing in this launcher stutters only after the app list is large. Measure input latency and allocations before optimizing."
+  ]
+}

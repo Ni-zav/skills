@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "I now have more than twenty skills. Audit whether any overlap, should be merged, or are just generic prompts that the base model does not need.",
+    "I found a public debugging skill I like. Review its principles, but do not blindly copy it; decide what belongs in my own library and test whether it adds value.",
+    "These two skills both trigger on Cloudflare deployment failures. Rewrite their boundaries so the domain operator and general debugger have clear ownership."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Our webhook sometimes arrives twice and occasionally the provider times out even though we processed it. Fix the contract so we cannot duplicate side effects.",
+    "Discord notifications are best effort, but deployment state must be correct even when delivery fails. Add retries and reconciliation without coupling them.",
+    "Design this Telegram bot callback path so retries, restarts, and duplicated updates do not create duplicate vault notes."
+  ]
+}

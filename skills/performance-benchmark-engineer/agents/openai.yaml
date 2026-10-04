@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Benchmark Engineer"
+  short_description: "Design trustworthy performance measurements"
+  default_prompt: "Use $performance-benchmark-engineer to define a representative benchmark, measure the baseline, locate the bottleneck, test the optimization, and report reproducible performance evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integration Contract Hardening"
+  short_description: "Harden APIs, webhooks, queues, and retries"
+  default_prompt: "Use $integration-contract-hardening to make this external integration idempotent, replayable, observable, and safe under duplicates, retries, delays, and partial failure."
