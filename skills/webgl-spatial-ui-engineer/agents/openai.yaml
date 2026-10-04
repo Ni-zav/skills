@@ -1,0 +1,4 @@
+interface:
+  display_name: "WebGL Spatial UI Engineer"
+  short_description: "Build responsive Three.js spatial products"
+  default_prompt: "Use $webgl-spatial-ui-engineer to turn this Three.js prototype into a robust spatial product with a scalable scene model and verified performance."

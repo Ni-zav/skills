@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Research whether an existing open-source solution already covers this feature, then implement the best option in this repo instead of just giving me links.",
+    "I am not sure whether this importer should use the vendor SDK or an open-source parser. Inspect the codebase, research both, decide, and build the smallest working path.",
+    "Figure out why this deployment design keeps failing on mobile networks and leave the repo in a better documented, testable state."
+  ]
+}

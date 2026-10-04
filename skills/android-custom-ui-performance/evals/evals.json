@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "This Java launcher uses one custom Canvas view and search becomes noticeably slow when I type + or fuzzy queries. Keep the architecture but make it fast.",
+    "My document-scanner preview is smooth until I capture and flatten a page, then the UI freezes and sometimes goes black. Profile the hot path and fix lifecycle issues.",
+    "I do not want Compose or RecyclerView. Optimize this dense custom View UI without rewriting the app."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Build a 2D/3D plot availability viewer like a property-site plan with clickable parcels, status data, labels, and mobile performance.",
+    "This Three.js scene looks good with 50 objects but dies with thousands. Keep visual quality while fixing scene architecture and interaction performance.",
+    "Turn these 360 panoramas into a usable tour editor with node navigation, persistent camera state, and efficient asset loading."
+  ]
+}

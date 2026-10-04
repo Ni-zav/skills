@@ -1,27 +1,29 @@
 # Skills Dashboard
 
-Generated from `skills/*/SKILL.md` by `npm run dashboard`.
+Generated from the canonical skill folders by `npm run dashboard`.
 
-| Skill | Description | Path | OpenAI metadata |
-| --- | --- | --- | --- |
-| `blender-extension-builder` | Build, audit, convert, package, publish, and validate Blender 4.2+ extension add-ons. Use when creating Blender extensions from scratch, converting legacy bl_info add-ons to blender_manifest.toml, designing extension folder/module structure, implementing bpy register/unregister lifecycle, packaging with blender --command extension build or blender -c extension build, validating extension ZIPs, testing add-on registration, publishing extension repositories, or working with Blender operators, panels, preferences, handlers, timers, keymaps, permissions, wheels, and extension packaging structure. | `skills/blender-extension-builder` | yes |
-| `obsidian-plugin-builder` | Create, modify, package, or manually install Obsidian note-taking app plugins. Use when building local or publishable Obsidian plugins, working with manifest.json/main.js/styles.css, creating PluginSettingTab settings, handling editor-change or Markdown editor behavior, installing plugins into a vault's .obsidian/plugins folder, or choosing between a simple no-build plugin and the official TypeScript sample-plugin workflow. | `skills/obsidian-plugin-builder` | yes |
+| Skill | Summary | Eval prompts | Path |
+| --- | --- | ---: | --- |
+| `android-custom-ui-performance` | Optimize Java/View/Canvas Android interfaces | 3 | `skills/android-custom-ui-performance` |
+| `archviz-interchange-engineer` | Build reliable CAD/BIM and 3D interchange | 3 | `skills/archviz-interchange-engineer` |
+| `blender-extension-builder` | Build Blender extension add-ons | 3 | `skills/blender-extension-builder` |
+| `cloudflare-edge-operator` | Build and debug production Cloudflare edge apps | 3 | `skills/cloudflare-edge-operator` |
+| `huawei-watch-face-engineer` | Build qualification-ready Huawei watch faces | 3 | `skills/huawei-watch-face-engineer` |
+| `obsidian-plugin-builder` | Create and install Obsidian plugins | 3 | `skills/obsidian-plugin-builder` |
+| `personal-knowledge-ingestion` | Build clean chat-to-vault capture pipelines | 3 | `skills/personal-knowledge-ingestion` |
+| `pixel-streaming-operator` | Debug Unreal Pixel Streaming end to end | 3 | `skills/pixel-streaming-operator` |
+| `research-to-implementation` | Turn technical research into verified delivery | 3 | `skills/research-to-implementation` |
+| `seo-dynamic-web` | Technical SEO for dynamic JavaScript sites | 3 | `skills/seo-dynamic-web` |
+| `visual-reference-reviewer` | Review implementation against visual references | 3 | `skills/visual-reference-reviewer` |
+| `webgl-spatial-ui-engineer` | Build responsive Three.js spatial products | 3 | `skills/webgl-spatial-ui-engineer` |
 
-## Install
-
-Local copy install before publishing:
+## Commands
 
 ```bash
+npm run dashboard
+npm run validate
 npm run install:codex
 npm run install:claude
 ```
 
-After this repo is pushed to GitHub, compatible skill installers can use:
-
-```bash
-npx skills@latest add <owner>/<repo>
-```
-
-## Add A Skill
-
-Create skills under `skills/<skill-name>/`. Each skill needs `SKILL.md`; add `agents/openai.yaml` for Codex UI metadata and optional `references/`, `scripts/`, or `assets/` only when they are useful.
+Read `README.md` for the curated catalog and `.agents/skill-authoring.md` for the quality bar.

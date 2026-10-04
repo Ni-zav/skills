@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Our Next.js project pages come from Supabase and users can see them, but Google barely indexes them. Audit the actual rendered HTML, metadata, sitemap, and internal links.",
+    "We added Indonesian and English versions of the architecture site. Fix canonicals/localization so they do not compete or create duplicate-content confusion.",
+    "Add project structured data and sitemap generation, but only from visible canonical content and prove the output is valid."
+  ]
+}

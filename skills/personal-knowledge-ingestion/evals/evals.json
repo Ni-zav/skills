@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "I want to share an X/Twitter link to a Telegram bot and have it parsed like a web clipper into my synced Obsidian vault.",
+    "Design my personal-gateway so today it captures links and quick notes, but later it can accept budgeting, finance, attendance, and daily-log inputs without becoming a mess.",
+    "My Telegram bot sometimes receives the same webhook twice. Make vault writes idempotent and preserve the original message for recovery."
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO for Dynamic Web"
+  short_description: "Technical SEO for dynamic JavaScript sites"
+  default_prompt: "Use $seo-dynamic-web to audit why these dynamic pages are not indexing, fix crawl/render/metadata issues, and verify what search engines receive."

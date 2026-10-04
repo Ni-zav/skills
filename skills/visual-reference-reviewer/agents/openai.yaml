@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Reference Reviewer"
+  short_description: "Review implementation against visual references"
+  default_prompt: "Use $visual-reference-reviewer to compare this implementation with the references, identify the highest-impact visual mismatches, and direct concrete code or asset changes."

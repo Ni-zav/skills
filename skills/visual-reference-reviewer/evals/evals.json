@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "This watch face technically has all the widgets but it still looks flat and nothing like my references. Review it and remake the direction.",
+    "Compare these screenshots to the target design. Find the composition, depth, material, typography, and overlap problems before touching tiny details.",
+    "The implementation passes the checklist but feels generic. I want a reference-driven quality review with concrete code changes."
+  ]
+}
