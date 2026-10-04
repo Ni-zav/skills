@@ -1,35 +1,31 @@
-# Invocation
+# Installing and Invoking
 
-Use this repo as a source catalog, not as runtime state.
+The repository is source-of-truth content, not runtime state.
 
-## Codex
+## Install all
 
-Copy skills to `$CODEX_HOME/skills` or `~/.codex/skills`:
+```bash
+npx skills@latest add Ni-zav/skills
+```
+
+Local copy:
 
 ```bash
 npm run install:codex
-```
-
-Invoke by name when the agent supports `$skill-name`.
-
-## Claude Code
-
-Claude Code personal skills live at `~/.claude/skills/<skill-name>/SKILL.md`. Project skills live at `.claude/skills/<skill-name>/SKILL.md`.
-
-Copy local skills to the personal folder:
-
-```bash
 npm run install:claude
 ```
 
-Invoke with `/skill-name` or let Claude load a skill automatically from the frontmatter description.
-
-## Published Repo
-
-Once this repo is pushed to GitHub:
+## Install one local skill
 
 ```bash
-npx skills@latest add <owner>/<repo>
+node scripts/skills.mjs install --target codex --skill <name>
+node scripts/skills.mjs install --target claude --skill <name>
 ```
 
-Keep the root `skills/` directory and generated `skills.json` stable so installers and dashboards can discover entries.
+Use `--dest <path>` for a custom target and `--force` only when replacing an existing installed copy is intentional.
+
+## Invocation
+
+Compatible agents may auto-select a skill from its frontmatter description. Explicit invocation is useful when the user wants a particular workflow; use the host's supported skill syntax (for example `$skill-name` in Codex-style surfaces).
+
+Do not add host-specific commands to the portable `SKILL.md` unless the skill actually depends on that host.
