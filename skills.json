@@ -1,8 +1,50 @@
 [
   {
+    "name": "android-custom-ui-performance",
+    "description": "Build and optimize Android interfaces based on classic View/Canvas/custom drawing rather than Compose, especially launchers, camera/document tools, dense custom UIs, and Java apps where frame time, allocations, gesture latency, geometry caching, redraw frequency, and lifecycle correctness matter. Use when UI feels slow, typing/search stutters, Canvas drawing is heavy, a custom launcher needs compact high-performance rendering, or the code intentionally avoids RecyclerView/Compose.",
+    "short_description": "Optimize Java/View/Canvas Android interfaces",
+    "path": "skills/android-custom-ui-performance",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "archviz-interchange-engineer",
+    "description": "Design, implement, and test 3D/CAD/BIM interchange pipelines for architecture visualization, especially SketchUp, Blender, IFC, DXF/DWG, Revit-derived data, glTF, and custom import/export bridges. Use when geometry imports as one object, layers disappear, faces are missing, units/transforms are wrong, materials or instances are lost, a round-trip exporter is planned, or the user needs to evaluate vendor SDK versus open-source format support.",
+    "short_description": "Build reliable CAD/BIM and 3D interchange",
+    "path": "skills/archviz-interchange-engineer",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "blender-extension-builder",
     "description": "Build, audit, convert, package, publish, and validate Blender 4.2+ extension add-ons. Use when creating Blender extensions from scratch, converting legacy bl_info add-ons to blender_manifest.toml, designing extension folder/module structure, implementing bpy register/unregister lifecycle, packaging with blender --command extension build or blender -c extension build, validating extension ZIPs, testing add-on registration, publishing extension repositories, or working with Blender operators, panels, preferences, handlers, timers, keymaps, permissions, wheels, and extension packaging structure.",
+    "short_description": "Build Blender extension add-ons",
     "path": "skills/blender-extension-builder",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "cloudflare-edge-operator",
+    "description": "Build, migrate, deploy, and debug Cloudflare edge applications using Workers, Workers Static Assets, Pages/Pages Functions, Wrangler, R2, D1, KV, Queues, Workflows, service bindings, cron triggers, and observability. Use when working on wrangler configuration, Cloudflare deployments, environment bindings, Workers/Pages migration, webhook services, deployment status tools, R2-backed assets, D1 data, scheduled Workers, or production failures that differ from local behavior.",
+    "short_description": "Build and debug production Cloudflare edge apps",
+    "path": "skills/cloudflare-edge-operator",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "huawei-watch-face-engineer",
+    "description": "Design, implement, package, and quality-review Huawei watch faces in Theme Studio Pro, including qualification submissions, 466x466 assets, widgets, expressions, animation, depth/DoF, AOD, data variables, preview/export, and reference-driven visual systems. Use when building Huawei Health watch faces, preparing designer qualification pieces, recreating or improving digital watch-face references, fixing flat/basic designs, adding depth/material/shader-like visual treatment, or validating HWT-ready deliverables.",
+    "short_description": "Build qualification-ready Huawei watch faces",
+    "path": "skills/huawei-watch-face-engineer",
+    "eval_prompts": 3,
     "agents": {
       "openai": true
     }
@@ -10,7 +52,69 @@
   {
     "name": "obsidian-plugin-builder",
     "description": "Create, modify, package, or manually install Obsidian note-taking app plugins. Use when building local or publishable Obsidian plugins, working with manifest.json/main.js/styles.css, creating PluginSettingTab settings, handling editor-change or Markdown editor behavior, installing plugins into a vault's .obsidian/plugins folder, or choosing between a simple no-build plugin and the official TypeScript sample-plugin workflow.",
+    "short_description": "Create and install Obsidian plugins",
     "path": "skills/obsidian-plugin-builder",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "personal-knowledge-ingestion",
+    "description": "Design personal capture pipelines that ingest chat messages, URLs, quick notes, receipts, attendance/check-ins, lightweight finance entries, and web clippings into an Obsidian-style personal vault through a Telegram bot or similar gateway. Use when building a personal-gateway, Telegram-to-Obsidian capture flow, URL parser/web clipper, inbox processor, structured daily input, or when deciding how automation should write into a long-lived personal knowledge base without making the vault messy or coupling it to one bot.",
+    "short_description": "Build clean chat-to-vault capture pipelines",
+    "path": "skills/personal-knowledge-ingestion",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "pixel-streaming-operator",
+    "description": "Deploy and troubleshoot Unreal Engine Pixel Streaming across the frontend, signalling server, streamer connection, WebRTC ICE/media path, STUN/TURN, SFU, reverse proxy or Cloudflare Tunnel, custom domains, and mobile networks. Use when Pixel Streaming shows wss/signalling failures, works on LAN but not mobile data, has TURN/NAT problems, needs Cloudflare in front, requires one-player or multi-viewer topology, or when a health endpoint succeeds but the browser still cannot receive the Unreal stream.",
+    "short_description": "Debug Unreal Pixel Streaming end to end",
+    "path": "skills/pixel-streaming-operator",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "research-to-implementation",
+    "description": "Turn ambiguous technical requests into evidence-backed implementation work. Use when a task starts with \"research/check/figure out what is possible\", compares libraries or architectures, asks whether an existing repo/product can support something, or needs research to end in code, tests, documentation, commits, or a concrete handoff instead of a report that stops at recommendations.",
+    "short_description": "Turn technical research into verified delivery",
+    "path": "skills/research-to-implementation",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "seo-dynamic-web",
+    "description": "Engineer technical SEO for JavaScript-heavy and dynamically sourced websites, especially Next.js-style sites backed by Supabase/CMS data, localized architecture/portfolio pages, image-heavy project stories, and Cloudflare deployments. Use when pages are not indexed, dynamic content lacks metadata, localization creates duplicate URLs, sitemap/canonical/robots behavior is unclear, structured data is needed, or the browser shows content that crawlers may not receive in rendered/indexable HTML.",
+    "short_description": "Technical SEO for dynamic JavaScript sites",
+    "path": "skills/seo-dynamic-web",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "visual-reference-reviewer",
+    "description": "Review and direct visual implementation against one or more reference images or an established design language. Use when the user says a result is flat, generic, soulless, not close to references, visually inconsistent, overlapping, lacking depth/material detail, or asks for a makeover, pixel-level critique, design QA, or implementation guidance that must preserve a specific visual concept rather than merely satisfy a feature checklist.",
+    "short_description": "Review implementation against visual references",
+    "path": "skills/visual-reference-reviewer",
+    "eval_prompts": 3,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "webgl-spatial-ui-engineer",
+    "description": "Build and optimize interactive Three.js/WebGL spatial products such as architecture viewers, 360 tours, plot visualizers, image-to-3D tools, shader demos, and large-scene web experiences. Use when a product needs camera/orbit controls, picking, overlays, instancing, LOD, spatial labels, large geometry, texture/material management, scene serialization, or when a visually impressive prototype must become a responsive usable product.",
+    "short_description": "Build responsive Three.js spatial products",
+    "path": "skills/webgl-spatial-ui-engineer",
+    "eval_prompts": 3,
     "agents": {
       "openai": true
     }
