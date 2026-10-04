@@ -1,0 +1,4 @@
+interface:
+  display_name: "Huawei Watch Face Engineer"
+  short_description: "Build qualification-ready Huawei watch faces"
+  default_prompt: "Use $huawei-watch-face-engineer to design or rebuild this Huawei watch face as a coherent, polished Theme Studio Pro implementation and verify the export."

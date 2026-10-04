@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android Custom UI Performance"
+  short_description: "Optimize Java/View/Canvas Android interfaces"
+  default_prompt: "Use $android-custom-ui-performance to profile this custom Android UI, remove the real hot-path work, and verify smooth behavior on device."

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "These digital watch faces are technically complete but flat and nowhere near the references. Redesign them for Huawei designer qualification with real depth and functional indicators.",
+    "Build a 466x466 Huawei watch face that uses expressions and depth only where the target spec supports them, then prepare preview and AOD.",
+    "Review this qualification set for overlap, color coherence, typography, missing indicators, and whether the five designs are actually distinct."
+  ]
+}

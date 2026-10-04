@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Knowledge Ingestion"
+  short_description: "Build clean chat-to-vault capture pipelines"
+  default_prompt: "Use $personal-knowledge-ingestion to design this Telegram or share-to-vault workflow with durable, idempotent capture and a clean Obsidian data model."
