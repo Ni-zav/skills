@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "This ComfyUI workflow opens with missing nodes and I do not know which custom repo each came from. Recover the smallest reproducible working graph.",
+    "I want to iterate every checkpoint through the same image-edit workflow and save comparable outputs with model and seed metadata.",
+    "Turn this manual ComfyUI graph into an API-driven pipeline, but flag any custom nodes that depend on frontend-only behavior."
+  ]
+}

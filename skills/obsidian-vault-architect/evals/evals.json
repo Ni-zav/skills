@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "I have several Obsidian vaults and overlapping research folders. Design one vault without creating an overcomplicated PARA clone and plan the migration safely.",
+    "My Telegram gateway, plugins, and manual notes all need to coexist. Define stable note schemas and an inbox boundary so each automation does not invent folders.",
+    "I want to rename and restructure thousands of notes with frontmatter changes. Preserve links and make the migration reversible."
+  ]
+}

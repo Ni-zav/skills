@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI Workflow Engineer"
+  short_description: "Build reproducible ComfyUI workflows and nodes"
+  default_prompt: "Use $comfyui-workflow-engineer to inspect this workflow and dependency graph, repair or automate it, preserve reproducibility, and verify it through the intended UI or API execution path."

@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Research how this architecture visualization tool likely implements its camera framing and asset workflow so we can build compatible behavior, but distinguish public facts from inference.",
+    "I have exported files and network logs from my own installation. Use them to understand the data model and create an interoperability prototype without bypassing any licensing or access checks.",
+    "This product has a feature I want to recreate. Build a black-box experiment matrix instead of guessing how it works from screenshots."
+  ]
+}
