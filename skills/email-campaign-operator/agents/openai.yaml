@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Campaign Operator"
+  short_description: "Design and optimize value-first email campaigns"
+  default_prompt: "Use $email-campaign-operator to define my permission-based audience and offer, draft a relevant email campaign, critique its claims and CTA, identify preflight blockers, and propose a measurable experiment."

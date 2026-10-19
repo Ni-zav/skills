@@ -11,6 +11,8 @@ Generated from the canonical skill folders by `npm run dashboard`.
 | `cloudflare-edge-operator` | Build and debug production Cloudflare edge apps | 3 | `skills/cloudflare-edge-operator` |
 | `comfyui-workflow-engineer` | Build reproducible ComfyUI workflows and nodes | 3 | `skills/comfyui-workflow-engineer` |
 | `computer-vision-document-pipeline` | Build robust capture-to-PDF document scanning | 3 | `skills/computer-vision-document-pipeline` |
+| `email-campaign-operator` | Design and optimize value-first email campaigns | 6 | `skills/email-campaign-operator` |
+| `email-deliverability-auditor` | Audit email authentication and sender compliance | 6 | `skills/email-deliverability-auditor` |
 | `failure-localization` | Locate root causes across system boundaries | 3 | `skills/failure-localization` |
 | `huawei-watch-face-engineer` | Build qualification-ready Huawei watch faces | 3 | `skills/huawei-watch-face-engineer` |
 | `integration-contract-hardening` | Harden APIs, webhooks, queues, and retries | 3 | `skills/integration-contract-hardening` |

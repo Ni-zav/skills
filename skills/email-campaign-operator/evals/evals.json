@@ -1,0 +1,10 @@
+{
+  "prompts": [
+    "We have 900 opted-in architecture newsletter subscribers, half beginners and half professional visualization studios. Build a three-email onboarding sequence with segmented value, subject lines, preheaders, and one measurable CTA per segment.",
+    "Rewrite our 350-word customer newsletter into one helpful tactical email without fake numbers. We only know our rendering workflow saves review steps, not a measured percentage. Supply a preflight checklist.",
+    "Our welcome sequence reports 31% opens and 3% unique clicks from delivered emails, but Apple Mail Privacy Protection is enabled. Propose an A/B test with a defensible primary metric and guardrails.",
+    "We have not contacted our old opt-in list in eighteen months. Design a safe re-engagement pilot and explain what to verify before resuming mail to the full list.",
+    "Someone scraped 20,000 LinkedIn emails and asked for a Hormozi-style newsletter blast. Explain why the opt-in playbook cannot be applied blindly and keep any draft unsent.",
+    "Create a short Indonesian-language email with a genuinely useful interior design tip, credible CTA, and no invented testimonials."
+  ]
+}

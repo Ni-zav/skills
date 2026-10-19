@@ -77,6 +77,28 @@
     }
   },
   {
+    "name": "email-campaign-operator",
+    "description": "Plan, write, review, and optimize permission-based email marketing campaigns, newsletters, welcome flows, lead magnets, nurture sequences, promotions, and reactivation. Use when building an email content calendar, segmenting subscribers, improving subject lines or preview text, drafting value-first messages and contextual CTAs, interpreting CTR or conversion data, or designing campaign A/B tests. For sender authentication, spam complaints, and unsubscribe infrastructure, use email-deliverability-auditor; for unsolicited B2B prospecting, do not apply opt-in assumptions.",
+    "short_description": "Design and optimize value-first email campaigns",
+    "path": "skills/email-campaign-operator",
+    "eval_prompts": 6,
+    "provenance": true,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
+    "name": "email-deliverability-auditor",
+    "description": "Audit email deliverability, authentication, sender reputation, marketing consent, suppression, and unsubscribe compliance before or after sending. Use when SPF, DKIM, DMARC, PTR, TLS, or domain alignment is unclear; Gmail or Yahoo rejects or spam-folders campaigns; bulk sender and RFC 8058 one-click rules matter; complaint or bounce rates rise; an ESP migration is planned; or a newsletter needs a launch preflight. For copy, segmentation, and campaign experimentation, use email-campaign-operator.",
+    "short_description": "Audit email authentication and sender compliance",
+    "path": "skills/email-deliverability-auditor",
+    "eval_prompts": 6,
+    "provenance": true,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "failure-localization",
     "description": "Diagnose technical failures by locating the first boundary where observed behavior diverges from expected behavior, then prove the root cause before changing code. Use when builds, tests, integrations, deployments, UI flows, networking, data pipelines, or device behavior fail unexpectedly; when several components could be responsible; or when repeated speculative fixes have not converged.",
     "short_description": "Locate root causes across system boundaries",

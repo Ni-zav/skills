@@ -105,6 +105,22 @@ Prefer Vault/FileManager APIs for plugin-side mutations and use safe read-modify
 - https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript
 - https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
 
+
+## Email marketing and deliverability
+
+Marketing inspiration (not a technical standard): Alex Hormozi, *Learn Email Marketing in 39 Minutes!* (2024-11-06), https://www.youtube.com/watch?v=pLhQOYMGa88. Its discussion of segmentation, concise utility, preview text, CTAs, welcome follow-ups, and experiment feedback is distilled into the `email-campaign-operator` procedure. Its specific ROI, cadence, time-of-day and 'inbox hack' claims should be tested, not assumed.
+
+Primary rules for sender authentication, unsubscribe and compliance:
+
+- Google Gmail sender guidelines: https://support.google.com/mail/answer/81126?hl=en
+- Google Gmail FAQ: https://support.google.com/mail/answer/14229414?hl=en
+- Yahoo Sender Hub: https://senders.yahooinc.com/best-practices/
+- RFC 8058 (one-click): https://www.rfc-editor.org/rfc/rfc8058
+- US FTC CAN-SPAM: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
+- Indonesia UU 27/2022 (PDP): https://peraturan.bpk.go.id/Details/229798/uu-no-27-
+
+These sources are checked as of 2026-10-19 and must be reverified for future sends. Separate provider policies, laws, and tentative conversion hypotheses; no particular formatting or link host guarantees inbox placement.
+
 ## Maintenance rule
 
 When a task depends on a fast-moving API, product limit, CLI flag, format version, publishing requirement, or runtime feature, the skill should tell the agent to verify the current official source instead of freezing a transient fact into permanent instructions.

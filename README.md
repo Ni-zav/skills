@@ -54,6 +54,11 @@ These are intentionally general, but each adds a procedure rather than a persona
 - `computer-vision-document-pipeline` — capture, page detection, editable boundaries, perspective correction, OCR coordinate integrity, projects, and PDF export.
 - `huawei-watch-face-engineer` — Theme Studio Pro watch faces, qualification-ready design systems, expressions, depth, AOD, packaging, and device verification.
 
+### Communications and email marketing
+
+- `email-campaign-operator` — permission-based newsletters, welcome/nurture campaigns, segmented useful copy, contextual CTAs, and experimentation.
+- `email-deliverability-auditor` — sender authentication, provider policies, unsubscribes, suppression, diagnostics, and pre-send readiness.
+
 ### Personal knowledge systems
 
 - `obsidian-plugin-builder` — local or publishable Obsidian plugins.
