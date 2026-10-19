@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Deliverability Auditor"
+  short_description: "Audit email authentication and sender compliance"
+  default_prompt: "Use $email-deliverability-auditor to inspect sender DNS and message authentication, Gmail/Yahoo rules, consent and unsubscribe behavior, and the first failure boundary; return evidence-backed fixes and a send readiness verdict."

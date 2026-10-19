@@ -23,6 +23,8 @@ This is intentionally different from `RESEARCH.md`:
 - [`cloudflare-edge-operator`](skills/cloudflare-edge-operator/references/provenance.md)
 - [`comfyui-workflow-engineer`](skills/comfyui-workflow-engineer/references/provenance.md)
 - [`computer-vision-document-pipeline`](skills/computer-vision-document-pipeline/references/provenance.md)
+- [`email-campaign-operator`](skills/email-campaign-operator/references/provenance.md)
+- [`email-deliverability-auditor`](skills/email-deliverability-auditor/references/provenance.md)
 - [`failure-localization`](skills/failure-localization/references/provenance.md)
 - [`huawei-watch-face-engineer`](skills/huawei-watch-face-engineer/references/provenance.md)
 - [`integration-contract-hardening`](skills/integration-contract-hardening/references/provenance.md)

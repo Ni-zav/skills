@@ -1,0 +1,10 @@
+{
+  "prompts": [
+    "Our new company domain can send from Gmail, but mail to personal Gmail addresses gets 550 5.7 errors. We have an ESP and Google Workspace. Give a triage plan that checks actual SPF, DKIM, DMARC alignment and provider requirements, without declaring it fixed from DNS alone.",
+    "We send 8,000 subscribed promotional messages per day to personal Gmail accounts. We have a visible opt-out footer but no List-Unsubscribe-Post header. Audit the release blocker and describe a test of RFC 8058 one-click POST.",
+    "Our newsletter moved to a new provider. Old unsubscribed contacts are present in the export, bounce rates climbed, and the provider says all messages were delivered. Design a safe migration checklist and no-send decision.",
+    "Marketing says plain text and a Google Drive link always bypass the Promotions tab. Evaluate that claim and specify what evidence is actually needed to diagnose placement.",
+    "We have 60,000 recipients across Indonesia, the US, and the EU, with unclear list provenance. Which legal/provider constraints require checking before any marketing send? Do not make up universal consent rules.",
+    "Yahoo complaint rates doubled after an increased send cadence. Show an evidence table, possible cohort causes, provider-specific measurements and a controlled recovery path."
+  ]
+}
