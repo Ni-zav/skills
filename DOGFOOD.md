@@ -74,3 +74,7 @@ Exercise the two new skills separately and together:
 4. A low-volume newsletter A/B test measures opens from Apple Mail clients: campaign skill must explain uncertainty and choose a downstream, qualified outcome.
 
 For each scenario compare the skill-assisted output against a capable baseline, score correctness, clarity, decision gates, and actionable verification. These scenarios are **test fixtures, not claims that end-to-end behavior has already passed**.
+
+## Photoshop montage skill (2026-11-09)
+
+Use `photoshop-montage` on a real layered composite and compare against baseline behavior: (1) add a person to a scene with a foreground railing and ground shadow; (2) transform product artwork on a four-corner plane without corrupting labeling; (3) replace a sky while preserving window/glass edges and matching foreground light; (4) clean a facade without inventing windows; (5) request Photoshop edits with **no connected MCP** and confirm it gives a transparent manual plan instead of fabricated results. These are **proposed evaluation fixtures**, not live Photoshop tests. Record visual P0/P1, source preservation, layer editability, and whether a full-frame and 100% crop were actually inspected.

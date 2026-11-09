@@ -34,6 +34,7 @@ This is intentionally different from `RESEARCH.md`:
 - [`oss-adoption-evaluator`](skills/oss-adoption-evaluator/references/provenance.md)
 - [`performance-benchmark-engineer`](skills/performance-benchmark-engineer/references/provenance.md)
 - [`personal-knowledge-ingestion`](skills/personal-knowledge-ingestion/references/provenance.md)
+- [`photoshop-montage`](skills/photoshop-montage/references/provenance.md)
 - [`pixel-streaming-operator`](skills/pixel-streaming-operator/references/provenance.md)
 - [`release-readiness-operator`](skills/release-readiness-operator/references/provenance.md)
 - [`research-to-implementation`](skills/research-to-implementation/references/provenance.md)

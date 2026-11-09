@@ -1,0 +1,24 @@
+{
+  "prompts": [
+    "Please add two people and a tree to my exterior render in Photoshop. Match the sun direction, perspective, shadows, foreground railing overlap, and keep the building exactly as rendered. Deliver a layered PSD.",
+    "Use Photoshop to make this product photo look like it was actually shot on the wooden table in my background picture, with contact shadow, reflection, believable blur, and an editable master.",
+    "The car I cut out looks pasted on top of the road. Use the original images to fix the scale, wheel contacts, edge halos, depth, road shadow and color match.",
+    "Can you realistically replace the sign on this angled building facade while preserving the frame, material glare, perspective and editable lettering in Photoshop?",
+    "Remove the two pedestrians and wires from this photograph without changing the wall joints or signage; save changes on layers I can review, not by overwriting the original.",
+    "The photomontage has ugly trees and people with green halos and no ambient shadow. Diagnose the exact compositing issues before doing any global color grading.",
+    "Make my daytime 3D render look like dusk in Photoshop using a provided sky, selective light corrections and reflections, but do not edit the 3D model or invent new windows.",
+    "I have Photoshop and a compatible MCP server. Build me a step-by-step montage with layer names, a safe UI handoff for Select and Mask, visual checkpoints and separate PSD/PNG exports."
+  ],
+  "non_trigger_prompts": [
+    "Please repair the SketchUp-to-Blender IFC importer and preserve object hierarchy and transforms.",
+    "Make a completely new fantasy landscape image from a text prompt, without editing any existing photograph.",
+    "Review this website dashboard screenshot for typography and spacing issues, not a Photoshop composite."
+  ],
+  "acceptance_checks": [
+    "Preserves source and protected geometry or identity",
+    "Does not claim MCP or Photoshop access unless connected",
+    "Includes perspective, occlusion, edge, contact-shadow and color checks",
+    "Uses layered PSD and real preview for sign-off",
+    "Hands off UI-only or credit-spending steps explicitly"
+  ]
+}

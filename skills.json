@@ -198,6 +198,17 @@
     }
   },
   {
+    "name": "photoshop-montage",
+    "description": "Plan, execute, and critically inspect editable Adobe Photoshop photomontages and photo composites with layers, masks, perspective, occlusion, realistic light, shadows, color matching, and retouching. Use when adding or replacing people, objects, vegetation, skies, products, signs, scenery, or 3D-render elements in a photograph or render; when a composite looks pasted-on; or when an MCP agent must turn a visual brief into a verified layered PSD. Not for 3D modeling, CAD interchange, or generic image generation.",
+    "short_description": "Build and inspect realistic layered photo montages",
+    "path": "skills/photoshop-montage",
+    "eval_prompts": 8,
+    "provenance": true,
+    "agents": {
+      "openai": true
+    }
+  },
+  {
     "name": "pixel-streaming-operator",
     "description": "Deploy and troubleshoot Unreal Engine Pixel Streaming across the frontend, signalling server, streamer connection, WebRTC ICE/media path, STUN/TURN, SFU, reverse proxy or Cloudflare Tunnel, custom domains, and mobile networks. Use when Pixel Streaming shows wss/signalling failures, works on LAN but not mobile data, has TURN/NAT problems, needs Cloudflare in front, requires one-player or multi-viewer topology, or when a health endpoint succeeds but the browser still cannot receive the Unreal stream.",
     "short_description": "Debug Unreal Pixel Streaming end to end",
