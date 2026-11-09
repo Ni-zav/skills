@@ -48,6 +48,10 @@ These are intentionally general, but each adds a procedure rather than a persona
 - `comfyui-workflow-engineer` — reproducible ComfyUI graphs, custom nodes, API execution, model iteration, dependencies, and VRAM behavior.
 - `reverse-engineering-product-teardown` — evidence-driven black-box/product architecture analysis for interoperability and independent implementation.
 
+### Photoshop editing and photomontage
+
+- `photoshop-montage` — create and quality-check editable Photoshop composites: placement, masks, occlusion, perspective, physically believable light/contact shadows, local color/texture matching, retouch and MCP handoffs. Works for photographs, products, render post-production, interiors and exteriors; it is not a 3D-modeling skill.
+
 ### Device, vision, and interface engineering
 
 - `android-custom-ui-performance` — Java/View/Canvas Android interfaces where frame time, allocations, geometry caching, gestures, and lifecycle correctness matter.

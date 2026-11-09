@@ -124,3 +124,13 @@ These sources are checked as of 2026-10-19 and must be reverified for future sen
 ## Maintenance rule
 
 When a task depends on a fast-moving API, product limit, CLI flag, format version, publishing requirement, or runtime feature, the skill should tell the agent to verify the current official source instead of freezing a transient fact into permanent instructions.
+
+## Photoshop compositing and MCP — 2026-11-09
+
+- Adobe Photoshop UXP scripting and `batchPlay`: https://developer.adobe.com/photoshop/uxp/ps_reference
+- Adobe layered composite guidance: https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/combine-images-in-photoshop.html
+- Adobe Select and Mask and layer masks: https://helpx.adobe.com/photoshop/desktop/make-selections/refine-modify-selections/refine-your-selection-and-mask.html
+- Adobe Harmonize requires pixel layers: https://helpx.adobe.com/photoshop/desktop/repair-retouch/remove-objects-fill-space/blend-subjects-with-harmonize.html
+- Photoshop-MCP-IMT documented tool inventory and skill references: https://github.com/Immersive-Media-Technologies/photoshop-mcp-imt
+
+`photoshop-montage` integrates general compositing judgment with Photoshop execution; it intentionally distinguishes what the MCP can actually automate from UI-only edits and from visual quality claims that require inspecting rendered pixels. Architecture visualization is a representative mixed-render/photo use case, not the skill's scope boundary.

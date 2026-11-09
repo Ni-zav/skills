@@ -22,6 +22,7 @@ Generated from the canonical skill folders by `npm run dashboard`.
 | `oss-adoption-evaluator` | Evaluate open-source adoption and dependency risk | 3 | `skills/oss-adoption-evaluator` |
 | `performance-benchmark-engineer` | Design trustworthy performance measurements | 3 | `skills/performance-benchmark-engineer` |
 | `personal-knowledge-ingestion` | Build clean chat-to-vault capture pipelines | 3 | `skills/personal-knowledge-ingestion` |
+| `photoshop-montage` | Build and inspect realistic layered photo montages | 8 | `skills/photoshop-montage` |
 | `pixel-streaming-operator` | Debug Unreal Pixel Streaming end to end | 3 | `skills/pixel-streaming-operator` |
 | `release-readiness-operator` | Turn release claims into evidence-backed gates | 3 | `skills/release-readiness-operator` |
 | `research-to-implementation` | Turn technical research into verified delivery | 3 | `skills/research-to-implementation` |
