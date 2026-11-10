@@ -7,18 +7,31 @@
     "Remove the two pedestrians and wires from this photograph without changing the wall joints or signage; save changes on layers I can review, not by overwriting the original.",
     "The photomontage has ugly trees and people with green halos and no ambient shadow. Diagnose the exact compositing issues before doing any global color grading.",
     "Make my daytime 3D render look like dusk in Photoshop using a provided sky, selective light corrections and reflections, but do not edit the 3D model or invent new windows.",
-    "I have Photoshop and a compatible MCP server. Build me a step-by-step montage with layer names, a safe UI handoff for Select and Mask, visual checkpoints and separate PSD/PNG exports."
+    "I have Photoshop and a compatible MCP server. Build me a step-by-step montage with layer names, a safe UI handoff for Select and Mask, visual checkpoints and separate PSD/PNG exports.",
+    "In Photoshop I want only the thin wire crossing the lamp removed, not the lamp or all the ceiling fixtures. Do not use a whole-subject selection; show the edit footprint first and verify nothing else disappeared.",
+    "The new patch on the cream wall looks greener than the rest and has a bright vertical seam; match adjacent color and the left-to-right lighting gradient without changing the couch or floor.",
+    "I inserted a tree next to a yellow-lit wall. The leaf greens should remain green, but the cutout looks too blue and too sharp. Adjust only its environmental color, spill, blur and shadow and verify the wall stays unchanged.",
+    "Photoshop Select Subject selected the entire person, but I asked to erase only the phone in their hand. What should the agent do before any removal?",
+    "The first Generative Remove pass removed the bicycle and its rider instead of just the hanging sign behind them. Diagnose the mistake, restore the protected subjects and redo only the intended area.",
+    "A window replacement appears coherent globally but the adjacent glass reflections and narrow frame strips are tinted. Check both sides of each seam and keep the frames unchanged."
   ],
   "non_trigger_prompts": [
     "Please repair the SketchUp-to-Blender IFC importer and preserve object hierarchy and transforms.",
     "Make a completely new fantasy landscape image from a text prompt, without editing any existing photograph.",
-    "Review this website dashboard screenshot for typography and spacing issues, not a Photoshop composite."
+    "Review this website dashboard screenshot for typography and spacing issues, not a Photoshop composite.",
+    "Change the shading and geometry of a 3D model in Blender, not the Photoshop image."
   ],
   "acceptance_checks": [
     "Preserves source and protected geometry or identity",
     "Does not claim MCP or Photoshop access unless connected",
     "Includes perspective, occlusion, edge, contact-shadow and color checks",
     "Uses layered PSD and real preview for sign-off",
-    "Hands off UI-only or credit-spending steps explicitly"
+    "Hands off UI-only or credit-spending steps explicitly",
+    "Requires full-frame and local crop evidence before selecting a target",
+    "Treats single object/part removal as separate from selecting the dominant whole subject",
+    "Defines CHANGE, KEEP, PROTECT, read-only CONTEXT and permitted EFFECT regions",
+    "Rejects risky mask polarity, selection overreach, and unauthorized deletion",
+    "Uses same-material adjacent-region and gradient reasoning, not blind histogram matching",
+    "Reverts or stops when protected-area before/after difference shows off-target edits"
   ]
 }

@@ -1,6 +1,6 @@
 # Montage recipes: five production scenarios
 
-These are **procedures**, not assertions that a tool has executed or that an image will pass automatically. For each scenario begin with a backed-up PSD and end with `quality-gates.md`.
+These are **procedures**, not assertions that a tool has executed or that an image will pass automatically. For each scenario begin with a backed-up PSD, make a `scene-understanding-and-edit-contract.md` target/keep/protect map, use material-specific `local-color-coherence.md`, and end with `quality-gates.md`.
 
 ## 1. Insert a person or object into a photographed/rendered scene
 
@@ -9,7 +9,7 @@ These are **procedures**, not assertions that a tool has executed or that an ima
 3. Isolate subject, preserve original source, refine fringe and missing internal holes.
 4. Place rear/intermediate/foreground occluders in correct z-order (e.g. rail in front of feet).
 5. Build localized contact plus separate cast shadow following scene key and receiver.
-6. Match local exposure/temperature/contrast, shadow color, focus and grain.
+6. Compare target insertion with nearby materials at the same depth and illumination; match relative exposure/temperature/contrast, shadow color, focus, edge spill and grain without forcing different materials to have the same average color.
 7. Inspect face/hair/shoes/ground joint and any facade/furniture overlaps at 100%.
 
 For trees/vegetation: validate internal sky holes, per-leaf translucency, shadow density, repeated silhouettes and depth-specific saturation. Never let foliage cutouts cover protected signage or geometry accidentally.
@@ -31,7 +31,7 @@ If the target is curved, don't pretend a planar homography solves it; use a supp
 2. Select source matching desired view; separate product matte from any old floor shadow.
 3. Place and scale on the destination support plane; check weight and real contact.
 4. Build contact/cast shadow, reflected/bounce light and environment-consistent highlights.
-5. Match tonal range and sharpen/soften selectively. Optionally prepare a **duplicate pixel layer** for Harmonize in Photoshop UI, then compare against the controlled manual composite.
+5. Sample and match local environment lighting on product highlights/shadows and the support surface; avoid matching intrinsic product color to table RGB. Match tonal range and sharpen/soften selectively. Optionally prepare a **duplicate pixel layer** for Harmonize in Photoshop UI, then compare against the controlled manual composite.
 6. Export editable master plus e-commerce/social previews without silently altering identity.
 
 ## 4. Replace a sky and shift the scene toward a reference mood
@@ -46,11 +46,19 @@ If the target is curved, don't pretend a planar homography solves it; use a supp
 ## 5. Remove distraction and reconstruct background
 
 1. Duplicate or create a clean retouch layer.
-2. Mask the distraction with enough margin and keep protected neighbors excluded.
+2. Identify exact distraction instance **and subpart**, then mark read-only context/KEEP/PROTECT. Preview the target mask overlay and its polarity, with the *minimum repair footprint*; no generic Select Subject.
 3. Use content-aware/healing for simple scenes; for planar grids, clone/pattern-align deliberate geometry instead of random fill.
 4. Only escalate to restricted generative fill when authorized and source reconstruction fails.
-5. Validate straight lines, vanishing, repeated textures, continuity behind objects and no phantom windows/doors/people.
-6. Keep the repair isolated for a before/after toggle.
+5. Validate straight lines, vanishing, repeated textures, **same-material seam color gradient and illumination** across both sides, continuity behind objects and no phantom windows/doors/people.
+6. Compare full-frame and protected-area before/after diff: if the distraction is gone **but adjacent parts vanish or change**, revert and narrow scope. Keep repair isolated for a before/after toggle.
+
+## 6. Local wall/floor patch has a visible color seam
+
+1. Identify the single surface being repaired; mark intact material to left/right (and across any illumination gradient) as **read-only reference**.
+2. Compare seam strips and patch interior; determine if mismatch is geometry/texture, brightness gradient, white balance or compressed/noisy detail.
+3. Fix geometry/texture continuity before color. Apply a **masked localized correction** informed by same-material intact ROIs rather than a whole-frame Match Color.
+4. Inspect both sides, far and near perspectives, and the full photo. Keep neighboring furniture/people/signage protected.
+5. Toggle local adjustment; reject if the seam still pops out or neighboring materials were tinted.
 
 ## Common handoff text
 

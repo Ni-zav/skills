@@ -1,5 +1,7 @@
 # Composition planning and asset fit
 
+**Target recognition comes before asset placement**: read `scene-understanding-and-edit-contract.md` and identify intended object *instance/part* plus protected neighboring content. Do not infer targets from filenames alone.
+
 ## Before editing pixels
 
 Create a compact montage brief:
@@ -24,6 +26,7 @@ If source images conflict in camera angle, lighting or focus, state whether that
 4. Match relative scale using scene anchors: doors, paving modules, furniture, human height, wheel diameter, known product measurements. Treat unknown measurements as estimates, not facts.
 5. Choose a compositional crop early, but keep an untouched full-size plate for revisions.
 6. Mark areas that need bespoke matte work: glass, hair, foliage, thin wires, motion blur and shadow receivers.
+7. For every proposed insertion, map immediate adjacent surfaces into same-material/read-only-context regions and different-material neighbors, so color matching preserves material identity.
 
 ## Render/photo mixed-source special cases
 

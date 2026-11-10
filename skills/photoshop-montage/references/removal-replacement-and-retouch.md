@@ -1,5 +1,7 @@
 # Removal, replacement, sky, cleanup, and generative boundaries
 
+**Before any removal, read** `scene-understanding-and-edit-contract.md`: identify the **specific instance or part**, verify the candidate mask overlay, and define read-only context versus editable footprint. “Remove the cable” must not become “remove the lamp the cable crosses.”
+
 ## Choose the least destructive technique
 
 | Task | Start with | Escalate when |
@@ -14,10 +16,18 @@
 ## Cleanup sequence
 
 1. Work on a duplicate/empty retouch layer (sample underlying layers when using healing), not the locked plate.
-2. Select the unwanted region, including a small **context margin**; avoid swallowing protected adjacent edges.
-3. Repair the physical background first—lines, perspective, repeated textures, horizons and depth continuity.
+2. Build a deliberate target-only `CHANGE` selection, respecting `KEEP` and `PROTECT` exclusions. Keep nearby surrounding `CONTEXT` as **read-only reference**. If the chosen fill operation requires a small synthesis margin, explicitly include and inspect the **minimum** required footprint; do not use a whole-subject selection for a part removal.
+3. Preview the selection overlay and check mask polarity/covered components **before** fill, delete or generation. Then repair physical background first—lines, perspective, repeated textures, horizons and depth continuity.
 4. Inspect the repaired area both isolated and within full composition. Look for clone repetition, texture mismatch, broken grid joints, doubled edges, invented architectural features and haze discontinuities.
-5. Keep a named correction layer/mask so reviewers can see what changed.
+5. Compare before/after with a protected-area difference check. If an unrelated object, part or structural line changed, **revert**, narrow selection, and retry a smaller correction or hand off a manual mask. Keep a named correction layer/mask so reviewers can see what changed.
+
+## Dangerous automation shortcuts
+
+- Do not invoke `select_subject` to remove a small object or part; it may select the entire dominant subject. Use a region-specific path/mask or inspected object selection. No candidate overlay → no automatic destructive removal.
+- Do not run `remove_background` on the final scene when the task is removing a distraction *within* the scene; it can hide the entire background.
+- An inverted selection or an incorrectly created reveal/hide mask can make unrelated areas vanish. Inspect the mask thumbnail, overlay and output before saving.
+- For several objects, remove and verify **one object at a time**; don't combine multiple uncertain targets into one enormous selection.
+- Preserve adjacent reflections/shadows unless they clearly belong to the removed object and were explicitly included in the edit contract.
 
 ## Generative steps are conditional
 
