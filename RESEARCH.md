@@ -134,3 +134,12 @@ When a task depends on a fast-moving API, product limit, CLI flag, format versio
 - Photoshop-MCP-IMT documented tool inventory and skill references: https://github.com/Immersive-Media-Technologies/photoshop-mcp-imt
 
 `photoshop-montage` integrates general compositing judgment with Photoshop execution; it intentionally distinguishes what the MCP can actually automate from UI-only edits and from visual quality claims that require inspecting rendered pixels. Architecture visualization is a representative mixed-render/photo use case, not the skill's scope boundary.
+
+### Montage-specific color and selective-edit review (2026-11-10)
+
+- Adobe Match Color between layers/selections: https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/match-color-of-two-layers-in-the-same-image.html
+- Adobe Match Color between images: https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/match-color-between-two-images.html
+- Adobe Select and Mask view modes: https://helpx.adobe.com/photoshop/desktop/make-selections/refine-modify-selections/refine-your-selection-and-mask.html
+- Adobe Remove tool: https://helpx.adobe.com/photoshop/desktop/repair-retouch/remove-objects-fill-space/remove-unwanted-objects-and-distractions.html
+
+The montage skill now separates **semantic target/part identification**, **explicit approved pixel footprint**, **read-only sampling context**, and **material-aware local color continuity**. Tool-selection or document-state success alone does not establish recognition or safe scope. Adobe's Match Color supports selections but is not a semantic safety validator or guaranteed seamless boundary solver.

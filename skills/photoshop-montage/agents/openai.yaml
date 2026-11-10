@@ -1,4 +1,4 @@
 interface:
   display_name: "Photoshop Montage"
   short_description: "Build and inspect realistic layered photo montages"
-  default_prompt: "Use $photoshop-montage to plan and execute this editable Photoshop composite with correct masking, perspective, occlusion, light, contact shadows, color and final visual QA. Inspect connected MCP capabilities before changing the PSD."
+  default_prompt: "Use $photoshop-montage to plan and execute this editable Photoshop composite with visual scene inspection, target-part CHANGE/KEEP/PROTECT masks, preservation checks, material-aware adjacent color coherence, masking, perspective, occlusion, shadows and visual QA. Inspect connected MCP capabilities before changing the PSD."

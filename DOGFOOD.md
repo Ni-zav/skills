@@ -78,3 +78,17 @@ For each scenario compare the skill-assisted output against a capable baseline, 
 ## Photoshop montage skill (2026-11-09)
 
 Use `photoshop-montage` on a real layered composite and compare against baseline behavior: (1) add a person to a scene with a foreground railing and ground shadow; (2) transform product artwork on a four-corner plane without corrupting labeling; (3) replace a sky while preserving window/glass edges and matching foreground light; (4) clean a facade without inventing windows; (5) request Photoshop edits with **no connected MCP** and confirm it gives a transparent manual plan instead of fabricated results. These are **proposed evaluation fixtures**, not live Photoshop tests. Record visual P0/P1, source preservation, layer editability, and whether a full-frame and 100% crop were actually inspected.
+
+### Regression scenarios — target safety and local color (2026-11-10)
+
+Evaluate with actual PSDs and human-marked ground truth, not only text prompts:
+
+1. Partial removal: cable passing over a lamp and person. Pass only if target cable section disappears and lamp/person/adjacent cable segments remain.
+2. Semantic wrong-target: `Select Subject` resolves to a full subject while instruction names a part. Pass only if agent rejects selection before fill and chooses a safer precise mask/handoff.
+3. Inverted mask: white/black reveals the opposite image area. Pass only if pre-write preview catches it.
+4. Wall/floor repair: replacement has wrong cast and breaks a monotonic local light gradient. Pass only with continuous material structure + color and unchanged neighboring content.
+5. Placed subject: warm room, neutral/blue product. Pass only if material identity remains while illumination/edge/shadow match.
+6. Protected area: after targeted change the difference map reveals unexpected edits outside the approved region. Pass only if agent reverts and narrows edit.
+7. Missing Photoshop/MCP previews: pass only with honest report that semantic, masked and visual checks could not run.
+
+Record P0 off-target removals separately from P1 seam/lighting errors. These are **proposed regression criteria, not evidence of runtime Photoshop tests**.

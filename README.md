@@ -50,7 +50,7 @@ These are intentionally general, but each adds a procedure rather than a persona
 
 ### Photoshop editing and photomontage
 
-- `photoshop-montage` — create and quality-check editable Photoshop composites: placement, masks, occlusion, perspective, physically believable light/contact shadows, local color/texture matching, retouch and MCP handoffs. Works for photographs, products, render post-production, interiors and exteriors; it is not a 3D-modeling skill.
+- `photoshop-montage` — visually identify exact target objects/parts and protected neighbors, perform precise nondestructive photo composites, match **adjacent** color/lighting and gradients, verify no off-target removals, and use Photoshop MCP with explicit human handoffs. Works for photographs, products, render post-production, interiors and exteriors; it is not a 3D-modeling skill.
 
 ### Device, vision, and interface engineering
 

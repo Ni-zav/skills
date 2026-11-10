@@ -1,6 +1,6 @@
 # Provenance
 
-Last researched: 2026-11-09. Verify versions, tools and feature credits before live use.
+Last researched: 2026-11-10. Verify versions, tools and feature credits before live use.
 
 ## Primary Photoshop documentation
 
@@ -12,6 +12,11 @@ Last researched: 2026-11-09. Verify versions, tools and feature credits before l
 - Adobe, Match Color in different images (RGB-only): https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/match-color-in-different-images.html
 - Adobe, Blend objects with Harmonize (pixel-layer requirement and matching lighting/shadows): https://helpx.adobe.com/photoshop/desktop/repair-retouch/remove-objects-fill-space/blend-subjects-with-harmonize.html
 - Adobe, Match color in a composite: https://www.adobe.com/learn/photoshop/web/match-color-tones-composite
+- Adobe, Match Color between two layers (source and target selections; RGB only): https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/match-color-of-two-layers-in-the-same-image.html
+- Adobe, Match Color between images (luminance, color intensity, Fade, Neutralize): https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/match-color-between-two-images.html
+- Adobe, Refine Selection view modes (black/white/overlay): https://helpx.adobe.com/photoshop/desktop/make-selections/refine-modify-selections/refine-your-selection-and-mask.html
+- Adobe, Remove tool region selection/brush options: https://helpx.adobe.com/photoshop/desktop/repair-retouch/remove-objects-fill-space/remove-unwanted-objects-and-distractions.html
+- Adobe, Enhance edge (credit-spending; check live rate): https://helpx.adobe.com/photoshop/desktop/create-masks/layer-masks/use-enhance-edge-to-refine-masks.html
 
 ## External implementations reviewed — tool interface inspiration only
 
@@ -21,6 +26,8 @@ Last researched: 2026-11-09. Verify versions, tools and feature credits before l
 IMT's README documents Photoshop 2024–2026 with macOS/Windows transports, but this skill **has not run Photoshop or IMT live**. APIs and individual features may behave differently by build, user permissions, OS, modal state or MCP server. The Adobe documentation is authoritative on Photoshop behavior; live `ps_catalog` and state readback are authoritative for the configured server. Credit costs and AI model options are deliberately not frozen here.
 
 ## Original synthesis and boundaries
+
+The extension adds an original object/part-level edit contract (CHANGE/KEEP/PROTECT/CONTEXT/EFFECT), explicit confidence and wrong-target stop rules, protected-area before/after verification, seam classification and same-material, gradient-aware local color matching. These are quality methods synthesized from compositing practice and user-reported failure cases, **not claims that Photoshop or an agent automatically segments objects perfectly**.
 
 The montage production sequence (asset fit → composition → geometry → matte/occlusion → light/contact → local tone/atmosphere → layered finish → visual evidence), protected-detail contract, material-specific matte rubric, P0/P1/P2 stop gates, recipe routing and editable-layer architecture were authored for Ni-zav's portable skill catalog. Architecture renders are a **common sample plate**, not a narrow trigger; 3D modeling, CAD interchange and WebGL remain separate skills.
 

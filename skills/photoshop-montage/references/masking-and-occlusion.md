@@ -12,14 +12,22 @@
 | Shadows | independent semi-transparent shadow layer | do not include the original cutout's baked background shadow |
 | Glowing/emissive area | isolated light spill plus source | avoid opaque cutouts and uniform neon halos |
 
+## Before choosing a mask
+
+For every targeted edit, distinguish the object **instance**, the **specific part**, and the intended polarity. An auto-selected full person/tree/building is not a safe selection for a cable, reflection, window or branch within it. Use the full-frame overlay plus a target crop to confirm *every disconnected component* is intentional. Keep and protected areas must be excluded even if selected by an automatic Photoshop algorithm. See `scene-understanding-and-edit-contract.md`.
+
 ## Non-destructive matte sequence
 
 1. Preserve the untouched source or Smart Object; isolate a working copy where required.
 2. Use Select Subject, Object Selection, a path or a relevant channel as the **first mask**, not the final answer.
-3. Create a layer mask; inspect it alone and against a **light**, **dark**, and **scene-colored** backing.
+3. Verify whether selected/white areas **reveal** and unselected/black areas **hide** the intended layer; a mistaken inversion can hide the whole photo. Create the mask only after checking this polarity, then inspect alone and against **light**, **dark**, and **scene-colored** backing.
 4. Fix missing interiors, ragged edges, halo contamination, inappropriate feather and color spill. Refine Hair/Select and Mask is a UI handoff when unavailable through MCP.
 5. If the subject crosses depth planes, **separate foreground occluders** (e.g., railing in front of a person, leaves crossing furniture) from the base image using their own masks/layers.
-6. Confirm the pixel alpha is the one actually used by the visible layer; don't assume a bounding-box readback proves a high-quality mask.
+6. Confirm the pixel alpha is the one actually used by the visible layer; don't assume a bounding-box readback proves a high-quality mask. Compare protected areas before and after; a mask that erases nearby people or scene structure fails even if the target is isolated.
+
+## Color at the matte edge
+
+Edge pixels may contain premultiplied source-background color (e.g., blue sky against brown hair, green foliage against a warm wall). A soft mask alone does not neutralize this spill. Check and, where needed, decontaminate source-edge pixels on a **working copy**; blend illumination locally against the actual scene and preserve translucency/strands. Read `local-color-coherence.md` before compensating with whole-layer color changes. Adobe's Enhance edge is a separate feature whose availability/credit cost must be checked and approved.
 
 ## Edges: what to inspect
 
